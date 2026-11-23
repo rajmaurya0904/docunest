@@ -43,10 +43,7 @@ pip install -e .
 
 ## How it works
 
-- Splits input markdown text by lines to track 1-based line numbers.
-- Extracts words using regular expression pattern matching.
-- Normalizes all extracted words to lowercase.
-- Computes mapping of unique lowercase words to lists of occurrence line numbers.
+DocuNest first extracts documentation fragments from source files and, when requested, parses recent git commit messages to include their content. The collected markdown is then rendered into a unified text representation while preserving line numbers for each fragment. Finally, an inverted index is built by normalizing each word to lowercase and mapping it to the list of line numbers where it occurs, enabling fast search across the generated knowledge base.
 
 ## Limitations
 
