@@ -34,6 +34,10 @@ pip install -e .
 
 ## Usage
 
+- `docunest --output <path>`: write the generated knowledge base to a file (defaults to stdout).
+- `docunest --include-commits`: include commit history in the generated knowledge base.
+- `docunest --config <path>`: load configuration from a YAML file.
+
 - `pytest`: run the test suite to verify code correctness.
 - Python API: import `build_index` from `docunest.search` to parse markdown into a searchable word-to-line index.
 
