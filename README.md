@@ -3,7 +3,7 @@
 **A tool that auto-generates a searchable markdown knowledge base from code comments and commit messages, for engineering teams.**
 
 When technical documentation lives in disconnected code comments and commit logs, developers waste hours hunting for context across repositories.
-DocuNest centralizes this scattered tribal knowledge into a cohesive, searchable markdown repository.
+DocuNest centralizes this scattered tribal knowledge into a cohesive, searchable markdown **knowledge base**.
 No more scouring git log history or guessing which source file contains the architecture decision.
 
 ## Example
