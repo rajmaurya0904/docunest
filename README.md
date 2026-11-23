@@ -47,5 +47,5 @@ DocuNest first extracts documentation fragments from source files and, when requ
 
 ## Limitations
 
-- Does not parse or filter out markdown syntax symbols (e.g. `#`, `*`) except where punctuation is stripped by word boundary matching.
-- Line numbers are 1-based and reflect duplicate line occurrences as separate list entries.
+- Only extracts documentation from Python docstrings; other comment styles are ignored.
+- Search is based on simple keyword matching; no fuzzy matching or phrase queries.
